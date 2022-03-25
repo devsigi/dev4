@@ -1,8 +1,10 @@
-Pipeline{
+pipeline{
     agent any
     stages{
       stage("print"){
-        echo "print sub1"
+          steps{
+            sh "echo 'print sub1'"
+          }
       }
     }
 }

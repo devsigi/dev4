@@ -3,7 +3,7 @@ pipeline{
     stages{
       stage("print"){
           steps{
-            sh "echo 'print sub1'"
+            sh "echo 'print Main'"
           }
       }
     }
